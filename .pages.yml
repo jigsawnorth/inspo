@@ -1,0 +1,14 @@
+media: img/products
+content:
+  - name: products
+    label: Products
+    path: content/products
+    type: collection
+    filename: 'product{primary}.json'
+    fields:
+      - { name: title, label: Number, type: string, required: true }
+      - { name: published, label: Published, type: boolean, required: true }
+      - { name: name, label: Name, type: string, required: true }
+      - { name: description, label: Description, type: rich-text, required: false }
+      - { name: image, label: Image, type: image, required: true }
+      - { name: url, label: URL, type: string }
