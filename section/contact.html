@@ -1,0 +1,42 @@
+<div class="contact-row-two corp-row-2-contact">
+	<h4>Messages will be sent to:</h4>
+	<h5>bookings@thealliebanks.com</h5>
+
+	<div class="questions-form">
+			<form action="https://formspree.io/bookings@thealliebanks.com" method="POST">
+			<!-- <input type="hidden" name="_cc" value="jff.tsng@gmail.com"/> -->
+				<div class="questions-form-group">
+					<h6>Your Name:</h6>
+					<input type="text" name="Customer Name" class="questions-form-control" placeholder="  Please enter your name">
+					<div class="help-block with-errors"></div>
+				</div>
+				<div class="questions-form-group">
+					<h6>Email Address:</h6>
+					<input type="email" name="Reply To" class="questions-form-control" placeholder="  Your email">
+					<div class="help-block with-errors"></div>
+				</div>
+				<div class="questions-form-group">
+					<h6>Subject:</h6>
+					<!-- <h6 style="display: inline-block;">(Select most applicable option)</h6> -->
+					<select class="questions-form-control" name="Subject" required="required">
+						<option>Event MC Needed</option>
+						<option>Fundraiser</option>
+						<option>Office Comedy Event</option>
+						<option>Other</option>
+					</select>
+				</div>
+				<div class="questions-form-group">
+					<h6>Your Question:</h6>
+					<textarea class="questions-form-control" rows="3" name="message" placeholder="  Hi Allie..."></textarea>
+				</div>
+
+				<div class="btnAction">
+					<input class="button button-mob" value="Submit Your Inquiry" type="submit">
+				</div>
+
+				<input type="text" name="_gotcha" style="display:none" />
+				<input type="hidden" name="_subject" value="New question from UIUX" />
+				<input type="hidden" name="_next" value="https://www.thealliebanks.com/contact.html">
+			</form>
+	</div>
+</div>
